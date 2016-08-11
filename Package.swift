@@ -21,6 +21,6 @@ let package = Package(
     dependencies: [.Package(url: "https://github.com/IBM-Swift/Kitura-TemplateEngine.git", majorVersion: 0, minor: 26)])
 
 #if os(OSX)
-    package.dependencies.append(.Package(url: "https://github.com/IBM-Swift/GRMustache.swift.git",
-                                         Version(1, 2, 2)))
+    package.dependencies.append(.Package(url: "https://github.com/rymcol/GRMustache.swift.git",
+                                         Version(0, 10, 0)))
 #endif
